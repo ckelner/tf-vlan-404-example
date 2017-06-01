@@ -26,7 +26,7 @@ Simply execute in this order:
   Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
   ```
 - Delete the VLAN via SL https://control.bluemix.net/network/vlans
-  - *note: this can take quite some time, I've experienced as long as 30mins*
+  - *note: this can take quite some time, I've experienced as long as 24 hours*
     - If you don't want to wait, you can modify the id in the `terraform.tfstate`
     file, modifying the `ibmcloud_infra_vlan.public_vlan` => `primary` => `id`
     value, an example below:
